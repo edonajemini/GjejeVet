@@ -1,0 +1,90 @@
+.company-detail{
+    margin:200px 100px ;
+}
+.header-company{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    align-items:center;
+    gap: 10px;
+    border-bottom: thin solid rgba(220, 220, 220, 0.439);
+}
+.company-rating-review{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    align-items:center;
+    gap: 10px;
+}
+.company-header-name{
+    display: grid;
+    grid-auto-flow: row;
+    align-content: center;
+}
+.header-company p{
+    color: gray;
+}
+.address{
+    color: gray;
+}
+.follow-review-btn{
+    margin-left: 400px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 8px;
+}
+.follow-review-btn button{
+    width: 200px;
+}
+.follow-btn {
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+.follow-btn:hover{
+    background-color: #2557a7;
+}
+.review-btn{
+    background-color: white;
+    border: thin solid gainsboro;
+}
+.review-btn:hover{
+    background-color: #2557a7;
+    color: white;
+}
+.website{
+    color:#2557a7 ;
+}
+.reviews{
+    background-color:  rgba(220, 220, 220, 0.257);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+}
+.all-jobs-company{
+    background-color:  rgba(220, 220, 220, 0.257);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 150px));
+    gap: 30px;
+}
+.jobs-company{
+    background-color: white;
+    border: thin solid rgba(220, 220, 220, 0.573);
+    margin: 10px;
+    padding: 10px;
+}
+.jobs-company button{
+    color:#2557a7;
+    background-color: transparent;
+    border: thin solid rgba(220, 220, 220, 0.573);
+}
+.date-time{
+    font-size: 12px;
+    color: gray;
+}
+.jobs-company h3{
+    font-weight: 400;
+}
+.jobs-company p{
+    color: rgb(72, 72, 72);
+}

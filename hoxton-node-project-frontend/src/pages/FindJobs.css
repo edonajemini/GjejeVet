@@ -1,0 +1,119 @@
+.job-search {
+    border-bottom: thin solid rgba(220, 220, 220, 0.439);
+    padding: 0 260px;
+    padding-bottom:100px ;
+    margin-top: 150px;
+  }
+  .job-search-form{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+  }
+  .job-search-input{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: thin solid gray;
+    padding-left: 10px;
+  
+  }
+  .job-search-input:focus{
+    outline: none;
+  }
+  
+  .job-search-input::placeholder{
+    color: black;
+    padding-left: 10px;
+    font-weight: 600;
+  }
+  .job-search-btn{
+    width: 150px;
+    color: white;
+    background-color: #2557a7;
+  }
+.job-feed ul{
+  display: grid;
+  grid-auto-flow: column;
+  list-style: none;
+  justify-content: center;
+  border-bottom: thin solid rgba(220, 220, 220, 0.439);
+  padding: 20px 0;
+  gap: 60px;
+  font-size: 20px;
+  
+}
+.job-feed button{
+  font-weight: 400;
+  background-color: transparent;
+  border: none;
+}
+.jobfeed-btn button:focus {
+  outline: none;
+  text-decoration:underline;
+  font-weight: 600;
+}
+.all-jobs{
+  display: grid;
+  grid-template-columns: 66.667% 33.334%;	
+  background-color: rgba(220, 220, 220, 0.136);
+}
+.jobs-feed{
+		padding: 1em;
+    display: grid;
+}
+.job-detail{
+  background-color: white;
+  border: thin solid rgba(220, 220, 220, 0.439);
+  border-radius: 10px;
+  padding: 10px;
+  width: 400px;
+  height: fit-content;
+  margin-top: 40px;
+  margin-left: -200px;
+  color: black;
+
+  
+}
+.jobs-feed-item{
+  background-color: white;
+  border: thin solid rgba(220, 220, 220, 0.439);
+  border-radius: 10px;
+  padding: 10px;
+  width: 350px;
+  margin: 20px;
+  margin-left: 200px;
+  color: black;
+}
+.company-name{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+  border-bottom: thin solid rgba(220, 220, 220, 0.439);
+}
+.company-name h2{
+  font-weight: 300;
+}
+.jobs{
+  padding:25px 5px;
+}
+.jobs h3, h4{
+  margin:10px 0;
+}
+.jobs h5{
+  color: gray;
+}
+.job-detail button{
+  width: 100px;
+  height: 40px;
+  background-color: #314c76;
+  border: none;
+  color: white;
+  margin-top: 15px;
+  font-weight: 500;
+}
+.job-detail button:hover{
+  background-color: #2557a7;;
+}

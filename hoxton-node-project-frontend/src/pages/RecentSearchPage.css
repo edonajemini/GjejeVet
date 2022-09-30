@@ -1,0 +1,12 @@
+.recent-page{
+    display: grid;
+    grid-auto-flow: column;
+    margin: 0 550px;
+    margin-top: -200px;
+    padding-bottom: 10px;
+    border-bottom: thin solid rgba(220, 220, 220, 0.439);
+}
+.recent-container h2{
+    margin: 0 570px;
+    padding-top: 10px;
+}
